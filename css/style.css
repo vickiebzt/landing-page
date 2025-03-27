@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  /* outline: 1px solid red; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 8em;
+  background-color: black;
+  font-family: Roboto, sans-serif;
+}
+/* header start */
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.bar {
+  display: flex;
+  padding: 1em;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.logo {
+  padding-right: 4em;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+a {
+  font-size: 18px;
+  color: rgb(125, 129, 137);
+  text-decoration: inherit;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+/* header finishes here */
+
+/* hero section */
+.hero {
+  padding: 9em;
+  margin: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3em;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.resume {
+  color: rgb(125, 129, 137);
+  font-size: 900;
+}
+
+.first {
+  margin: 12px 0;
+  border: 0;
+  border-radius: 15px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 900;
+  padding: 10px;
+  width: 120px;
+}
+
+.image {
+  border: 0;
+  width: 600px;
+  height: 300px;
+}
+
+/* hero finishes here */
+
+/* don't touch above from header and hero area
+code is right */
+
+/* info section */
+
+.background-section-two {
+  background-color: #f9faf8;
+}
+
+.sub-title {
+  padding: 1em;
+  font-size: 36px;
+  text-align: center;
+}
+
+.random {
+  border-radius: 15px;
+  border: 5px solid #3882f6;
+  width: 10rem;
+  height: 10rem;
+}
+
+.intro {
+  text-align: center;
+}
+
+.main {
+  padding: 3em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4em;
+}
+
+article {
+  background-color: #dfe4eb;
+  color: #1f2937;
+  font-weight: 100;
+  font-size: 36px;
+  font-style: italic;
+  text-align: center;
+}
+
+.quote {
+  padding: 100px 350px;
+}
+
+span {
+  font-weight: 900;
+  font-size: 1rem;
+  font-style: normal;
+  text-align: left;
+}
+
+/* code is done
+don't know how to put author on 
+the right as provided layout - solved
+author goes inside the paragraph not outside 
+still missing the line break*/
+
+/* cta */
+
+.cta {
+  background-color: #f9faf8;
+  padding: 6rem 4rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.signup-heading {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.signup-text {
+  color: rgba(224, 223, 223, 0.958);
+  font-size: 16px;
+}
+
+.signup-button {
+  margin: 2rem;
+}
+
+button {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 900;
+  padding: 10px;
+  width: 120px;
+}
+
+/* footer its complete*/
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 3em;
+  text-align: center;
+}
